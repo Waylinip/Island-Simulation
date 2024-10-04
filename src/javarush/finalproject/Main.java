@@ -14,8 +14,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        int maxX = 20;
-        int maxY = 20;
+        int maxX = 10;
+        int maxY = 10;
 
         Island island = new Island(maxX, maxY);
 

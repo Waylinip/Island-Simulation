@@ -20,7 +20,7 @@ public class Main {
         Island island = new Island(maxX, maxY);
 
         List<Animal> animals = new ArrayList<>(List.of(
-                new Deer("Deeer", 80, 3, 4, 50, island),
+                new Deer("Deer", 80, 3, 4, 50, island),
                 new Deer("Deer", 80, 3, 4, 50, island),
                 new Deer("Deer", 80, 3, 4, 50, island),
                 new Deer("Deer", 80, 3, 4, 50, island),

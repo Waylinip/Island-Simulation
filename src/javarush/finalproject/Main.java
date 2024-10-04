@@ -18,6 +18,7 @@ public class Main {
         int maxY = 10;
 
 
+
         Island island = new Island(maxX, maxY);
 
         List<Animal> animals = new ArrayList<>(List.of(

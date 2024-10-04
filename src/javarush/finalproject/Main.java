@@ -14,15 +14,13 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        int maxX = 10;
-        int maxY = 10;
-
-
+        int maxX = 20;
+        int maxY = 20;
 
         Island island = new Island(maxX, maxY);
 
         List<Animal> animals = new ArrayList<>(List.of(
-                new Deer("Deer", 80, 3, 4, 50, island),
+                new Deer("Deeer", 80, 3, 4, 50, island),
                 new Deer("Deer", 80, 3, 4, 50, island),
                 new Deer("Deer", 80, 3, 4, 50, island),
                 new Deer("Deer", 80, 3, 4, 50, island),
